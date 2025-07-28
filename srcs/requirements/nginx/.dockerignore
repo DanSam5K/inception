@@ -1,0 +1,38 @@
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore editor and IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and misc
+*.log
+*.tar
+*.zip
+
+# Ignore node or frontend build files (if any)
+node_modules/
+dist/
+
+# Ignore WordPress source files (usually not needed in the NGINX container)
+wordpress/
+wp-content/
+wp-config.php
+
+# Ignore everything else, then explicitly allow what's needed
+# Uncomment below if you're sure what you want to include:
+# *
+# !nginx.conf
+# !conf/
+# !tools/
+# !Dockerfile
+
