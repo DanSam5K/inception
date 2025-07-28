@@ -1,0 +1,35 @@
+# Ignore WordPress core files if you're mounting them separately
+wordpress/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore system or IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Ignore logs and debug files
+*.log
+debug.log
+
+# Ignore version control
+.git
+.gitignore
+
+# Ignore sensitive config and credentials
+.env
+*.pem
+*.key
+*.crt
+
+# Ignore Docker-related files if not needed in build context
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore node and composer dependencies (if used)
+node_modules
+vendor
+
